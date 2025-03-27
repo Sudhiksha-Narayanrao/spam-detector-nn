@@ -33,10 +33,13 @@ Each email is described using 6 binary features (`1` = yes, `0` = no):
 ## How to run it
 
 Make sure you have Python and NumPy installed:
+
 pip install numpy
 
 Then just run the script:
+
 python spam_detector.py
+
 It will train the model and print out predictions for some sample emails. You can also test new email inputs by calling the predict_email() function at the bottom of the file.
 
 ## Sample output
